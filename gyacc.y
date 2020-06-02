@@ -105,26 +105,6 @@ clear_mem:
 %%
 
 int main(void){
-    /*
-    printf("Welcome To Our Language GameLang\n");
-    printf("Here You can interactively control but can't play the games\n");
-    printf("To Get all the existing command, you can use command 'get'\n");
-    printf("To see the available games lists, use command 'aglist' 	=>(Games List)\n");
-    printf("To see the current running games, you can use command 'rglist'	=>(Running Glist)\n");
-    printf("To see the detailed list of installed games, use command 'dglist' =>(installed Game list with Their size and cache acquired)\n");
-    printf("To see the list of installed games, use command 'glist' =>(installed game names)\n");
-    printf("To remove/delete the game from Glist, use command 'delete'\n");
-    printf("To close the running game, use command 'close'\n");
-    printf("To clear RAM ,use command 'clear ram'\n");
-    printf("To add/install the game in Glist, write command 'install'\n");
-    printf("To play the game in Glist, write command 'play'\n");
-    printf("To clear the cache of the particular game 'clear cache'\n");
-    printf("Swap between current running game with some other game, 'swap'\n");
-    printf("Calculate total storage/cache acquired by all the games in Glist, 'total cache' or 'total storage'\n");
-    printf("To get help use command, 'help'\n");
-    printf("To get current game ,use command 'current'\n");
-    */
-    
     printMessage();
     setupAvailableGames();
     yyparse();
